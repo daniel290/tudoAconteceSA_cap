@@ -1,0 +1,96 @@
+{
+  "listaColaboradores": [
+    {
+      "colaborador": [
+        {
+          "numero": "1",
+          "nome": "Nuno",
+          "apelido": "Mestrinho",
+          "enderecoEmail": "nuno.mestrinho@capgemini.com",
+          "listaEventos": [
+            {
+              "meeting": [
+                {
+                  "idEvento": "0",
+                  "descricaoEvento": "Reunião com Orientador",
+                  "dataEvento": "2018-05-23",
+                  "horaEvento": "15:00:00",
+                  "local": "Sala 5",
+                  "participantes": [
+                    { "participante": [ { "numero": "2" } ] },
+                    { "participante": [ { "numero": "3" } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "appointement": [
+                {
+                  "idEvento": "1",
+                  "descricaoEvento": "Colocar moedas no Parque",
+                  "dataEvento": "2018-05-21",
+                  "horaEvento": "15:00:00",
+                  "local": "Sala 3",
+                  "participantes": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "colaborador": [
+        {
+          "numero": "2",
+          "nome": "Inês",
+          "apelido": "Ramos",
+          "enderecoEmail": "ines.ramos@capgemini.com",
+          "listaEventos": [
+            {
+              "meeting": [
+                {
+                  "idEvento": "2",
+                  "descricaoEvento": "Reunião de Projecto",
+                  "dataEvento": "2018-05-23",
+                  "horaEvento": "15:00:00",
+                  "local": "Sala 5",
+                  "participantes": [
+                    { "participante": [ { "numero": "1" } ] },
+                    { "participante": [ { "numero": "3" } ] }
+                  ]
+                }
+              ]
+            },
+            {
+              "appointement": [
+                {
+                  "idEvento": "3",
+                  "descricaoEvento": "Alterar relogio para horário de Verão",
+                  "dataEvento": "2018-05-29",
+                  "horaEvento": "15:00:00",
+                  "local": "",
+                  "participantes": []
+                }
+              ]
+
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "colaborador": [
+        {
+          "numero": "3",
+          "nome": "Paulo",
+          "apelido": "Abreu",
+          "enderecoEmail": "paulo.abreu@capgemini.com",
+          "listaEventos": []
+
+        }
+      ]
+    }
+  ]
+}
