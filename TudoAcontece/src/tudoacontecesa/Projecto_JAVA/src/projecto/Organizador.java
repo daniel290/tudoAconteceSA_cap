@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tudoacontecesa;
+package projecto;
 
 /**
  *
  * @author RCARVOEI
  */
-public class main {
-    public static void main(String[] args){
-        Ficheiro ficheiro =  new Ficheiro();
-        ficheiro.readJSONFile();
+public class Organizador extends Colaborador {
+    public Organizador(){
+        super();
     }
 }

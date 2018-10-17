@@ -21,9 +21,9 @@ import org.json.simple.parser.ParseException;
  * @author MMOTEIRO
  */
 public class Ficheiro {
-
+// jsonParser é o objeto, fazer o parse de um formato para outro
     JSONParser jsonParser = new JSONParser();
-    private static final String caminho = "D:\\Capgemini\\Projetos\\Projeto_final_java\\";
+    private static final String caminho = "C:\\Users\\dmorais\\Desktop\\TudoAcontecFinal\\tudoAconteceSA_cap\\";
     Colaborador colaboradorAux =  new Colaborador();
     
     public void readJSONFile() {
